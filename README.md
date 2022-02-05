@@ -1,14 +1,15 @@
 # TSM
-Computational requirements
-The code was last run with R version 3.5.0.
 The following R packages are required: KFAS, MCMCpack, mvtnorm, Rcpp, RcppArmadillo,
 numDeriv, sandwich, xtable, urca, dynlm, dplyr, VAR.etp.
+
 { The le setup.R lists the dependencies and installs all missing packages (latest version).
 { To use the package Rcpp a C++ compiler is needed. On Windows it is necessary to
 install Rtools. See here for the Rcpp documentation and here for unoffcial Rtools
 Windows installation instructions.
+
 The computational costs of the estimation of the ESE model are relatively high, but they
 can be substantially reduced if the MCMC sampling is run in parallel.
+
 { Running the MCMC sampler for a single chain (100,000 iterations) takes about 10-20
 hours on a typical modern computer, depending on its processing power. The results
 in the paper are based on the combination of five separate chains.
