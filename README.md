@@ -1,4 +1,7 @@
 # TSM
+This code runs the result from the paper Bauer, M. D., & Rudebusch, G. D. (2020). 
+Interest rates under falling stars. American Economic Review, 110(5), 1316-54.
+
 The following R packages are required: KFAS, MCMCpack, mvtnorm, Rcpp, RcppArmadillo,
 numDeriv, sandwich, xtable, urca, dynlm, dplyr, VAR.etp.
 
